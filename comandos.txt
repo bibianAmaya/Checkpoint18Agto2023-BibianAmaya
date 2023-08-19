@@ -1,0 +1,32 @@
+git clone https://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@github.com/bibianAmaya/Checkpoint18Agto2023-BibianAmaya.git
+cd Checkpoint18Agto2023-BibianAmaya
+touch main.js index.html
+git add .
+git config user.name bibianAmaya
+git config user.email bibian.e.amaya.p@gmail.com
+git commit -m "commit 05 de BibianAmaya"
+git push origin main
+git branch feature
+git checkout feature
+mkdir Hardware Software SeguridadInformatica
+cd Hardware
+touch resumen.txt
+cd ..
+cd Software
+touch resumen.txt
+cd ..
+cd SeguridadInformatica
+touch resumen.txt
+cd ..
+git add .
+git commit -m "commit 05 de BibianAmaya rama feature"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+nano resumenSoftware.txt
+nano resumenHardware.txt
+git add .
+git commit -m "commit 05 de BibianAmaya RamaMain"
+git push origin main
+touch comandos.txt
